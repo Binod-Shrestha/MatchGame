@@ -81,10 +81,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="Kyr-7r-qTs" id="N8C-WE-l6n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="479" y="-199"/>
+            <point key="canvasLocation" x="44" y="-617"/>
         </scene>
     </scenes>
     <resources>
