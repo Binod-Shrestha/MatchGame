@@ -12,6 +12,9 @@
 		AE0CB4D1250EA18D006EAF32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0CB4CF250EA18D006EAF32 /* Main.storyboard */; };
 		AE0CB4D3250EA18E006EAF32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0CB4D2250EA18E006EAF32 /* Assets.xcassets */; };
 		AE0CB4D6250EA18E006EAF32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0CB4D4250EA18E006EAF32 /* LaunchScreen.storyboard */; };
+		AE0CB53A250EA7D5006EAF32 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0CB539250EA7D5006EAF32 /* CardModel.swift */; };
+		AE0CB53C250EA92C006EAF32 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0CB53B250EA92C006EAF32 /* Card.swift */; };
+		AE0CB540250EAE5A006EAF32 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0CB53F250EAE5A006EAF32 /* CardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		AE0CB4D2250EA18E006EAF32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE0CB4D5250EA18E006EAF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE0CB4D7250EA18E006EAF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0CB539250EA7D5006EAF32 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		AE0CB53B250EA92C006EAF32 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		AE0CB53F250EAE5A006EAF32 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				AE0CB4CB250EA18D006EAF32 /* AppDelegate.swift */,
 				AE0CB4CD250EA18D006EAF32 /* ViewController.swift */,
+				AE0CB539250EA7D5006EAF32 /* CardModel.swift */,
+				AE0CB53B250EA92C006EAF32 /* Card.swift */,
 				AE0CB4CF250EA18D006EAF32 /* Main.storyboard */,
 				AE0CB4D2250EA18E006EAF32 /* Assets.xcassets */,
 				AE0CB4D4250EA18E006EAF32 /* LaunchScreen.storyboard */,
 				AE0CB4D7250EA18E006EAF32 /* Info.plist */,
+				AE0CB53F250EAE5A006EAF32 /* CardCollectionViewCell.swift */,
 			);
 			path = MatchGame;
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			files = (
 				AE0CB4CE250EA18D006EAF32 /* ViewController.swift in Sources */,
 				AE0CB4CC250EA18D006EAF32 /* AppDelegate.swift in Sources */,
+				AE0CB53A250EA7D5006EAF32 /* CardModel.swift in Sources */,
+				AE0CB540250EAE5A006EAF32 /* CardCollectionViewCell.swift in Sources */,
+				AE0CB53C250EA92C006EAF32 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
